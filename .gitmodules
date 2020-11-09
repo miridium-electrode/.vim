@@ -13,3 +13,12 @@
 [submodule "s-plugged/vim-sensible"]
 	path = s-plugged/vim-sensible
 	url = ./plugged/vim-sensible
+[submodule "s-plugged/nerdcommenter"]
+	path = s-plugged/nerdcommenter
+	url = ./plugged/nerdcommenter
+[submodule "s-plugged/vim-go"]
+	path = s-plugged/vim-go
+	url = ./plugged/vim-go
+[submodule "s-plugged/coc.nvim"]
+	path = s-plugged/coc.nvim
+	url = ./plugged/coc.nvim
