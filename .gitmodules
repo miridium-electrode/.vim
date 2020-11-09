@@ -1,0 +1,15 @@
+[submodule "s-plugged/nerdtree"]
+	path = s-plugged/nerdtree
+	url = ./plugged/nerdtree
+[submodule "s-plugged/seoul256.vim"]
+	path = s-plugged/seoul256.vim
+	url = ./plugged/seoul256.vim
+[submodule "s-plugged/vim-airline"]
+	path = s-plugged/vim-airline
+	url = ./plugged/vim-airline
+[submodule "s-plugged/vim-devicons"]
+	path = s-plugged/vim-devicons
+	url = ./plugged/vim-devicons
+[submodule "s-plugged/vim-sensible"]
+	path = s-plugged/vim-sensible
+	url = ./plugged/vim-sensible
