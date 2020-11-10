@@ -26,7 +26,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'scrooloose/nerdtree'
 Plug 'preservim/nerdcommenter'
 Plug 'fatih/vim-go', { 'for': 'go' }
-Plug 'neoclide/coc.nvim'
+Plug 'neoclide/coc.nvim', { 'for': 'go'}
 Plug 'ryanoasis/vim-devicons'
 
 " List ends here. Plugins become visible to Vim after this call.(VIMPLUG)
@@ -63,7 +63,7 @@ set updatetime=300
 " don't give |ins-completion-menu| messages.
 set shortmess+=c
 " always show signcolumns
-" set signcolumn=yes
+set signcolumn=yes
 
 " Use tab for trigger completion with characters ahead and navigate.
 " Use command ':verbose imap <tab>' to make sure tab is not mapped by other plugin.
@@ -116,3 +116,8 @@ nnoremap <silent> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list
 nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
+
+" ------------------------------------
+" eclim settings
+" ------------------------------------
+let g:EclimCompletionMethod = 'omnifunc'
